@@ -1,0 +1,57 @@
+body{
+    background-image: url("lego.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    
+    justify-content: center;
+}
+.lego{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0,0.2);
+    backdrop-filter: blur(25px);
+    width: 500px;
+    height: 400px;
+    padding: 16px;
+    margin-top: 170px;
+}
+.play{
+    height:100px;
+    width: 400px;
+    color: black;
+    border-radius: 15px;
+    position:relative ;
+    background-color: rgb(244, 244, 85);
+    top: 2rem;
+
+}
+.mode{
+    font-size: 26px;
+    height: 100px;
+    border-radius: 15px;
+    width: 400px;  
+    position:relative ; 
+    background-color: rgb(144, 143, 143);  
+    top: 1 rem; 
+    margin-top: 50px; 
+}
+
+button{
+    border-radius: 10px;
+    width:fit-content;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position:relative ;
+}
+h1{
+    color: white;
+    font-style: italic;
+    position:relative ;
+}
+
